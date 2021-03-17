@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "push": "git add . && git commit -m 'Update' && git push"
   },
   "dependencies": {
     "gatsby": "^3.0.1",
